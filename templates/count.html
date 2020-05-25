@@ -1,0 +1,14 @@
+<h1>Word Counter</h1>
+
+<a href="{% url 'about' %}">About</a>
+<br>
+<a href="{% url 'home' %}">Try New Text</a>
+
+<h2>There are {{ count }} words in your text</h2>
+
+<h2>Your Text below</h2>
+{{ fulltext }}
+
+<h1>Sort Words</h1>
+
+{{ sortedwords }}
